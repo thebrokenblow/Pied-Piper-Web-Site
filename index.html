@@ -1,25 +1,26 @@
 <!DOCTYPE html>
-
-<html lang="eng">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="normalize.css" />
-    <link rel="stylesheet" href="index.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pied Piper</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="/style/header.css" />
     <link rel="stylesheet" href="/style/first-hero.css" />
     <link rel="stylesheet" href="/style/information-section.css" />
     <link rel="stylesheet" href="/style/second-hero.css" />
-    <link rel="stylesheet" href="/style/footer.css" />
     <link rel="stylesheet" href="/style/team.css" />
+    <link rel="stylesheet" href="/style/footer.css" />
   </head>
   <body>
     <header class="site-header">
       <div class="header-container">
         <div class="navigation-container">
           <div class="logo">
-            <a href="#Header_cite"><img src="SVG/logo/navbar-logo.svg" alt="logo" /></a>
+            <a href="#header">
+              <img src="SVG/logo/navbar-logo.svg" alt="logo" />
+            </a>
           </div>
           <nav>
             <a class="link" href="#TheProblem">the problem | </a>
@@ -30,13 +31,15 @@
       </div>
     </header>
 
+    <div id="header"></div>
+
     <section class="first-hero">
       <div class="first-hero-container">
         <div class="first-hero-message">PiperNet Is Here</div>
       </div>
     </section>
 
-    <section class="information-section">
+    <section id="TheProblem" class="information-section">
       <h1 class="section-header">The Problem</h1>
 
       <div class="information-section-description">
@@ -72,7 +75,11 @@
       </div>
     </section>
 
-    <section class="information-section" style="background-color: #fff">
+    <section
+      id="PledPiperCoin"
+      class="information-section"
+      style="background-color: #fff"
+    >
       <h1 class="section-header">Introducing PiedPiperCoin</h1>
       <div class="information-section-description" style="display: flex">
         <img
@@ -100,7 +107,7 @@
       </div>
     </section>
 
-    <section class="information-section">
+    <section id="TheTeam" class="information-section">
       <h1 class="section-header">The Team</h1>
       <div
         class="information-section-description"
@@ -193,5 +200,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="/script.js"></script>
   </body>
 </html>
