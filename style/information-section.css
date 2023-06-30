@@ -1,0 +1,15 @@
+.information-section {
+  background-color: #eeeeee;
+}
+
+.information-section-description {
+  box-sizing: border-box;
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 55px;
+  padding-right: 55px;
+  font-size: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}

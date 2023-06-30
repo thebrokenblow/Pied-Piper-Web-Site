@@ -1,0 +1,24 @@
+.second-hero {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-image: url("/SVG/hero-block/hero-block2.svg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.second-hero-container {
+  box-sizing: border-box;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+.second-hero-message {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 56px;
+  text-align: center;
+  color: #fff;
+}
