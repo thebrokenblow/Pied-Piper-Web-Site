@@ -19,6 +19,14 @@ h1 {
   top: 0; 
 }
 
+.section-header {
+  color: #007765;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  padding-top: 30px;
+}
+
 .main_container {
   width: 100%;
   padding-left: 300px;
@@ -57,7 +65,6 @@ h1 {
 }
 
 .first-hero-message {
-  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 48px;
   line-height: 56px;
@@ -65,11 +72,11 @@ h1 {
   color: #fff;
 }
 
-.the-problem-section {
+.information-section {
   background-color: #EEEEEE;
 }
 
-.problem-description {
+.information-section-description {
   box-sizing: border-box; 
   max-width: 980px;
   margin-left: auto;
@@ -99,10 +106,40 @@ h1 {
 }
 
 .second-hero-message {
-  font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 40px;
   line-height: 56px;
   text-align: center;
   color: #fff;
+}
+
+
+.flexbox {
+  display: flex;
+  height: 100px;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #eaeaea;
+  border: 1px dotted #333;
+}
+
+.item {
+  /* default => flex: 0 1 auto */
+  background-color: #fff;
+  border: 1px dotted #333;
+  box-sizing: border-box;
+}
+
+
+.block {
+  height: 180px; /* for Demo only */
+  display: table;
+  width: 100%;
+}
+
+.block-cell {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
 }
