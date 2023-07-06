@@ -13,3 +13,26 @@
   padding-top: 15px;
   padding-bottom: 15px;
 }
+
+.button-PiperCoin {
+  width: 115px;
+  height: 115px;
+  padding: 0;
+  margin: 0;
+  border-radius: 57.5px;
+  border-style: none;
+  box-shadow: 5px 5px 5px #007765;
+  
+  cursor: pointer;
+  transition: all 0.3s ease; 
+  outline: none;
+}
+
+.button-PiperCoin:hover {
+  box-shadow: 5px 5px 1px gray;
+}
+
+.button-PiperCoin:active {
+  box-shadow: none;
+  transform: translateY(5px) translateX(5px);
+}
