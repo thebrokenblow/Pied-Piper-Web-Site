@@ -1,26 +1,36 @@
-.block {
-  height: 180px;
-  display: table;
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #eee;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.members {
+  display: flex;
+  flex-wrap: wrap;
   width: 100%;
 }
 
-.block-cell {
-  display: table-cell;
+.member {
   text-align: center;
-  vertical-align: middle;
+  flex-basis: 33%;
+  padding: 24px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
 }
 
-.name-employee {
-  color: #007765;
-  font-weight: 500;
+.member-name {
+  margin: 0;
+  margin-top: 12px;
+  font-weight: 600;
   font-size: 24px;
+  color: #007765;
 }
 
-.position-employee {
+.member-role {
   font-style: italic;
   font-size: 18px;
-}
-
-.img-employee {
-  height: 140px;
 }
